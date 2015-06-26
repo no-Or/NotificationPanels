@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+	    
+    <link rel="stylesheet" href="bootstrap.min.css">
+	<link id="theme-style" rel="stylesheet" href="overrides.css">
+	<br><br>
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-6 col-sm-12 col-xs-12">	
+                <section class="main-content section">
+					<!-- Updates -->
+			        <div class="NotificationPanel easing" id="panelupdates" style="width: 100%; border: none; font-size: 16px; background: rgb(255, 255, 255);">
+			        	<div class="bn-title" style="color: rgb(255, 255, 255); font-weight: normal; width: auto; padding: 10px 20px; background: rgb(0, 120, 160);">
+			        		EVENTS UPCOMING
+			        	</div>
+			            <ul style="left: 110px; margin-top: 0px;">
+							<li style="display: block;">
+								<a href="http://www.comsnets.org/call_for_papers.html?ref=alert" target="_blank" style="color: rgb(51, 51, 51); font-weight: normal; height: 22px;"><strong>Call for Papers</strong> announced for COMSNETS 2016</a>
+							</li>
+							<li style="display: block;">
+								<a href="http://www.comsnets.org/volunteers.html?ref=alert" target="_blank" style="color: rgb(51, 51, 51); font-weight: normal; height: 22px;">Become a <strong>student volunteer</strong> @ COMSNETS 2016!</a>
+							</li>
+							<li style="display: block;">
+								<a href="http://www.comsnets.org/index.html?ref=alert#important-dates" target="_blank" style="color: rgb(51, 51, 51); font-weight: normal; height: 22px;"><strong>Important Deadlines</strong> for paper submission to main conference</a>
+							</li>
+						</ul>
+			            <div class="bn-arrows">
+			            	<span class="bn-arrows-left"></span>
+			            	<span class="bn-arrows-right"></span>
+			            </div>	
+			        </div>
+					<!-- -->		
+					<br><br>
+					<!-- Updates -->
+			        <div class="NotificationPanel easing" id="panelupdates" style="width: 100%; border: none; font-size: 16px; background: rgb(255, 255, 255);">
+			        	<div class="bn-title" style="color: rgb(255, 255, 255); font-weight: normal; width: auto; padding: 10px 20px; background: rgb(0, 120, 160);">
+			        		EVENTS UPCOMING
+			        	</div>
+			            <ul style="left: 110px; margin-top: 0px;">
+							<li style="display: block;">
+								<a href="http://www.comsnets.org/call_for_papers.html?ref=alert" target="_blank" style="color: rgb(51, 51, 51); font-weight: normal; height: 22px;"><strong>Call for Papers</strong> announced for COMSNETS 2016</a>
+							</li>
+							<li style="display: block;">
+								<a href="http://www.comsnets.org/volunteers.html?ref=alert" target="_blank" style="color: rgb(51, 51, 51); font-weight: normal; height: 22px;">Become a <strong>student volunteer</strong> @ COMSNETS 2016!</a>
+							</li>
+							<li style="display: block;">
+								<a href="http://www.comsnets.org/index.html?ref=alert#important-dates" target="_blank" style="color: rgb(51, 51, 51); font-weight: normal; height: 22px;"><strong>Important Deadlines</strong> for paper submission to main conference</a>
+							</li>
+						</ul>
+			            <div class="bn-arrows">
+			            	<span class="bn-arrows-left"></span>
+			            	<span class="bn-arrows-right"></span>
+			            </div>	
+			        </div>
+					<!-- -->		
+                </section><!--//section-->
+            </div><!--//primary-->
+        </div><!--//row-->
+    </div><!--//container-->
+	
+    <!-- Javascript -->          
+    <script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="PanelUpdates.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#panelupdates").PanelUpdates({
+				background		:'#FFF',
+				titlecolor		:'#FFF',
+				titlebgcolor	:'#0078a0',
+				title			:'UPDATES',
+				linkcolor		:'#333',
+				linkhovercolor	:'#099',
+				fonttextsize	: 16,
+				isbold			:false,
+				border			:'solid 1px #099',
+				width			:'100%',
+				timer			:2500,
+				autoplay		:true,
+				effect			:'slide'
+			});
+		});	
+	</script>
+
+</body>
+</html>
